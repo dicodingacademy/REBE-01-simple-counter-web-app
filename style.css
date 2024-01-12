@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: honeydew;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+button {
+  width: 60px;
+  height: 40px;
+  font-size: 32px;
+  color: white;
+  background-color: teal;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.click-blue:active {
+  background-color: darkblue;
+}
+
+.click-red:active {
+  background-color: darkred;
+}
+
+p {
+  font-size: 48px;
+}
